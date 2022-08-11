@@ -280,8 +280,8 @@ static ARR_Instance broadcasts;
 
 /* Enable sub-second polling intervals only when the peer delay is not
    longer than 10 milliseconds to restrict them to local networks */
-#define MIN_NONLAN_POLL 0
-#define MAX_LAN_PEER_DELAY 0.01
+#define MIN_NONLAN_POLL -7
+#define MAX_LAN_PEER_DELAY 0.1
 
 /* Kiss-o'-Death codes */
 #define KOD_RATE 0x52415445UL /* RATE */
