@@ -37,7 +37,7 @@
 #include "tempcomp.h"
 
 /* Sanity limit (in ppm) */
-#define MAX_COMP 10.0
+#define MAX_COMP 50.0
 
 static SCH_TimeoutID timeout_id;
 
